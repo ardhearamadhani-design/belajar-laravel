@@ -6,5 +6,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/halo', function () {
-    return ('Selamat datang');
+    return view('halo');
+});
+Route::get('/halaman', function () {
+    return view('welcome');
 });
